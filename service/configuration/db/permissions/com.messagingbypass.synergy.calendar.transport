@@ -1,0 +1,13 @@
+[
+	{
+		"type": "db.kind",
+		"object": "com.messagingbypass.synergy.calendar.transport:1",
+		"caller": "com.messagingbypass.synergy.service",
+		"operations": {
+			"read": "allow",
+			"create": "allow",
+			"delete": "allow",
+			"update": "allow"
+		}
+	}
+]

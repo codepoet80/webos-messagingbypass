@@ -1,0 +1,13 @@
+{
+  "accounts": ["com.messagingbypass.synergy.account"],
+  "app": "com.messagingbypass.synergy",
+  "icon": "icon.png",
+  "id": "com.messagingbypass.synergy",
+  "loc_name": "Messaging Account Bypass",
+  "miniicon": "icon.png",
+  "package_format_version": 2,
+  "services": ["com.messagingbypass.synergy.service"],
+  "vendor": "Jon W",
+  "vendorurl": "www.webosarchive.org",
+  "version": "1.0.0"
+}

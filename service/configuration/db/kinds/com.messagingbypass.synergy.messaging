@@ -1,0 +1,19 @@
+{
+    "id": "com.messagingbypass.synergy.messaging:1",
+    "extends": ["com.palm.messaging:1"],
+	"indexes": [
+	{
+        "name": "accountId",
+        "props": [{
+            "name": "accountId"
+        }]
+    },
+	{
+		"name": "accountId_remoteId",
+		"props": [{
+			"name": "accountId"
+		}, {
+			"name": "remoteId"
+		}]
+	}]
+}

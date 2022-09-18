@@ -1,0 +1,9 @@
+{
+    "id": "com.messagingbypass.synergy.account:1",
+    "owner": "com.messagingbypass.synergy.service",
+    "sync": true,
+    "indexes": [{ 
+       "name": "accountId", 
+       "props": [{ "name": "accountId"}]}], 
+    "extends": ["com.palm.calendar:1"]
+}

@@ -1,0 +1,7 @@
+{
+    "id": "com.messagingbypass.synergy.calendar.transport:1",
+    "indexes": [{ 
+       "name": "lastSync", 
+       "props": [{ "name": "lastSync"}]}
+       ]
+}

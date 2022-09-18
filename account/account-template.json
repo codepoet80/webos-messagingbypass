@@ -1,0 +1,38 @@
+{
+    "templateId": "com.messagingbypass.synergy.account",
+    "loc_name": "Messaging Account Bypass",
+    "icon": {
+        "loc_32x32": "images/icon32x32.png",
+        "loc_48x48": "images/icon48x48.png"
+    },
+    "validator": "palm://com.messagingbypass.synergy.service/checkCredentials",
+    "readPermissions": ["com.messagingbypass.synergy.service"],
+    "writePermissions": ["com.messagingbypass.synergy.service"],
+    "loc_usernameLabel": "email address",
+    "capabilityProviders": [{
+        "capability": "MESSAGING",
+        "id": "com.messagingbypass.synergy.messaging",
+        "loc_name": "Messaging Account Bypass",
+        "implementation": "palm://com.messagingbypass.synergy.service/",
+        "onCreate": "palm://com.messagingbypass.synergy.service/onCreate",
+        "onEnabled": "palm://com.messagingbypass.synergy.service/onEnabled",
+        "onDelete": "palm://com.messagingbypass.synergy.service/onDelete",
+        "sync": "palm://com.messagingbypass.synergy.service/sync",
+        "capabilitySubtype": "IM",
+        "serviceName": "type_example",
+        "supportsInvisibleStatus": false,
+        "onCredentialsChanged": "palm://com.example.service/onCredentialsChanged",
+        "loginStateChanged": "palm://com.example.service/loginStateChanged",
+        "sendIM": "palm://com.example.service/sendIM",
+        "sendCommand": "palm://com.example.service/sendCommand",
+        "chatWithNonBuddies": true,
+        "readOnlyData": false,
+        "icon": { "loc_32x32": "images/example32.png", "loc_48x48": "images/example48.png", "splitter": "images/example32.png" },
+        "dbkinds": {
+            "immessage": "com.messagingbypass.synergy.immessage:1",
+            "imloginstate": "com.messagingbypass.synergy.loginstate:1",
+            "imcommand": "com.messagingbypass.synergy.imcommand:1"
+
+        }
+    }]
+}
